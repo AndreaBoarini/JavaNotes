@@ -16,6 +16,8 @@ class B extends A {
 // un costruttore di default da offrire alla sottoclasse. Il programma chiamerebbe in automatico
 // il costruttore della superclasse perchè non è definito alcun costruttore nella sottoclasse.
 
+----------------------------------------------------------------------------------------------------
+
 class A {
   int x;
   int y;
@@ -33,6 +35,8 @@ class B extends A {
 // In questo secondo caso il programma COMPILA perchè la superclasse ha un costruttore a zero parametri
 // disponibile per poter essere invocato nella sottoclasse in maniera automatica perchè questa non dispone
 // di alcun costruttore.
+
+----------------------------------------------------------------------------------------------------
 
 III°
 class A {
