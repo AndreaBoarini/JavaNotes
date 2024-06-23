@@ -16,20 +16,18 @@ class B extends A {
 // un costruttore di default da offrire alla sottoclasse. Il programma chiamerebbe in automatico
 // il costruttore della superclasse perchè non è definito alcun costruttore nella sottoclasse.
 
-II°
 class A {
-	int x;
-	int y;
-	A(int x, int y) {
-		this.x = x;
-		this.y = y;
-	}
-	A() {
-		x = 0;
-		y = 0;
-	}
+  int x;
+  int y;
+  A(int x, int y) {
+    this.x = x;
+    this.y = y;
+  }
+  A() {
+    x = 0;
+    y = 0;
+  }
 }
-
 class B extends A {
 }
 // In questo secondo caso il programma COMPILA perchè la superclasse ha un costruttore a zero parametri
