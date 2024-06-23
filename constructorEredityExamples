@@ -36,4 +36,17 @@ class B extends A {
 
 III°
 class A {
+  int x;
+  int y;
+  A(int x, int y) {
+    this.x = x;
+    this.y = y;
+  }
 }
+class B extends A {
+  B(int x, int y) {
+    super(x, y);
+  }
+}
+// In questo terzo caso il programma COMPILA in quanto quando la sottoclasse chiama il costruttore della superclasse
+// sta chiamando quello specifico che può essere fornito, si può vedere come una chiamata esplicita
