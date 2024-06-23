@@ -18,10 +18,10 @@ class B extends A {
 
 II°
 class A {
-int x;
-int y;
+	int x;
+	int y;
 	A(int x, int y) {
-		this.x = x;
+	this.x = x;
 		this.y = y;
 	}
 	A() {
