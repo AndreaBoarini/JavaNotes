@@ -1,0 +1,14 @@
+Grazie al vantaggio offerto dal polimorfimso, ovunque c'è un super tipo di una classe
+è possibile sostituirlo con un suo sotto tipo:
+
+public class Line {
+  Point p1, p2;
+  Line(Point p1, Point p2) {...}
+}
+
+Point p1 = new Point(1,2);
+NamedPoint p2 = new NamedPoint(5, 7, "A");
+Line l = new Line(p1, p2);
+
+in questo caso, nel main, nel costruttore di Line, sono stati usati due oggetti diversi
+ma in modo conforme rispetto al principio di Liskov.
